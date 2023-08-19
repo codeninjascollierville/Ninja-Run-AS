@@ -24,10 +24,12 @@ public class Pickups : MonoBehaviour
        
         Debug.Log(score);
        
-       
-        Destroy(other.gameObject);
+      // Destroy();
+        //Destroy(other.gameObject);
+
+   //Destroy(other.gameObject);
     Pickup.Play();
-   
+    Destroy(other.gameObject);
     }
     // Debug.Log("Trigger Enter");
     }
