@@ -7,7 +7,7 @@ public class Pickups : MonoBehaviour
 {
     public int score;
     public Text scoreText;
-
+    public Text door;
     public ParticleSystem Pickup;
 
     void Start()
@@ -30,7 +30,22 @@ public class Pickups : MonoBehaviour
    //Destroy(other.gameObject);
     Pickup.Play();
     Destroy(other.gameObject);
+    
+     Debug.Log("Trigger Enter");
+   
+    if(touching(coin)){
+         coin.collect;
     }
+    
+    //{
+      //door;
+    //}
+    //door.setActive(true);
+
+     //{
+    //door;
+   //}
+   }
     // Debug.Log("Trigger Enter");
     }
 }
