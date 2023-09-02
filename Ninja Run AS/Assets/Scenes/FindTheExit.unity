@@ -159,9 +159,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
-  door: {fileID: 0}
   Pickup: {fileID: 0}
-  door1: {fileID: 0}
+  coin: {fileID: 74602095}
+  door1: {fileID: 1268341939}
+  door: {fileID: 0}
 --- !u!65 &74602101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -477,9 +478,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
-  door: {fileID: 0}
   Pickup: {fileID: 521643985}
+  coin: {fileID: 0}
   door1: {fileID: 0}
+  door: {fileID: 0}
 --- !u!1001 &133936935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3448,9 +3450,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
-  door: {fileID: 0}
   Pickup: {fileID: 0}
-  door1: {fileID: 0}
+  coin: {fileID: 74602095}
+  door1: {fileID: 1268341939}
+  door: {fileID: 0}
 --- !u!1 &1269880724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59,
@@ -3575,9 +3578,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
-  door: {fileID: 0}
   Pickup: {fileID: 0}
+  coin: {fileID: 74602095}
   door1: {fileID: 1268341939}
+  door: {fileID: 0}
 --- !u!1 &1294329856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59,
@@ -3905,9 +3909,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
-  door: {fileID: 0}
   Pickup: {fileID: 0}
+  coin: {fileID: 0}
   door1: {fileID: 0}
+  door: {fileID: 0}
 --- !u!65 &1340297809
 BoxCollider:
   m_ObjectHideFlags: 0

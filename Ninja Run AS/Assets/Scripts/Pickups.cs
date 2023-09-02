@@ -7,9 +7,11 @@ public class Pickups : MonoBehaviour
 {
     public int score;
     public Text scoreText;
-    public Text door;
+   //public Text door;
     public ParticleSystem Pickup;
+    public GameObject coin;
     public GameObject door1;
+    public GameObject door;
     void Start()
     {
        Pickup.Stop();
@@ -20,34 +22,14 @@ public class Pickups : MonoBehaviour
 
     
     if(other.gameObject.CompareTag("coin")){
-        score++;
-        Debug.Log("coin");
-        scoreText.text = score.ToString();
-       
-       
-        //Debug.Log(score);
-       
-       Destroy(door1);
-        Destroy(other.gameObject);
+      score++;
+      Debug.Log("coin");
+      //scoreText.text = score.ToString();
+      
+      Destroy(door1);
+      Destroy(other.gameObject);
 
-   //Destroy(other.gameObject);
-    Pickup.Play();
-    Destroy(other.gameObject);
-    
-     Debug.Log("Trigger Enter");
-   
-    //if(touching(coin)){
-      //   coin.collect;
-    //}
-    
-    //{
-      //door;
-    //}
-    //door.setActive(true);
-
-     //{
-    //door;
-   //}
+      Pickup.Play();
    }
     // Debug.Log("Trigger Enter");
     }
